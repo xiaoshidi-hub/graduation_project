@@ -1,0 +1,9 @@
+.\flash\obj\musicstop.o: ..\..\emWin\ICON\MusicStop.c
+.\flash\obj\musicstop.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\musicstop.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\musicstop.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\musicstop.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\musicstop.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\musicstop.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\musicstop.o: ..\..\emWin\Include\Global.h
+.\flash\obj\musicstop.o: ..\..\emWin\Include\GUI_Version.h

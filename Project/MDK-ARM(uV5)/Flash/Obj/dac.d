@@ -1,0 +1,9 @@
+.\flash\obj\dac.o: ..\..\emWin\Picture\DAC.c
+.\flash\obj\dac.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\dac.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\dac.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\dac.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\dac.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\dac.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\dac.o: ..\..\emWin\Include\Global.h
+.\flash\obj\dac.o: ..\..\emWin\Include\GUI_Version.h

@@ -1,0 +1,9 @@
+.\flash\obj\computer.o: ..\..\emWin\Picture\Computer.c
+.\flash\obj\computer.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\computer.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\computer.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\computer.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\computer.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\computer.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\computer.o: ..\..\emWin\Include\Global.h
+.\flash\obj\computer.o: ..\..\emWin\Include\GUI_Version.h

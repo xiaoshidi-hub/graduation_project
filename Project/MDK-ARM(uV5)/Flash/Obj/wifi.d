@@ -1,0 +1,9 @@
+.\flash\obj\wifi.o: ..\..\emWin\Picture\WIFI.c
+.\flash\obj\wifi.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\wifi.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\wifi.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\wifi.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\wifi.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\wifi.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\wifi.o: ..\..\emWin\Include\Global.h
+.\flash\obj\wifi.o: ..\..\emWin\Include\GUI_Version.h

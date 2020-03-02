@@ -1,0 +1,9 @@
+.\flash\obj\gui_x_rtx.o: ..\..\emWin\GUI_X\GUI_X_RTX.c
+.\flash\obj\gui_x_rtx.o: ..\..\RL-ARM\RL-RTX\inc\RTL.h
+.\flash\obj\gui_x_rtx.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\gui_x_rtx.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\gui_x_rtx.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\gui_x_rtx.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\gui_x_rtx.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\gui_x_rtx.o: ..\..\emWin\Include\Global.h
+.\flash\obj\gui_x_rtx.o: ..\..\emWin\Include\GUI_Version.h

@@ -1,0 +1,9 @@
+.\flash\obj\recordericon.o: ..\..\emWin\ICON\RecorderIcon.c
+.\flash\obj\recordericon.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\recordericon.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\recordericon.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\recordericon.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\recordericon.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\recordericon.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\recordericon.o: ..\..\emWin\Include\Global.h
+.\flash\obj\recordericon.o: ..\..\emWin\Include\GUI_Version.h

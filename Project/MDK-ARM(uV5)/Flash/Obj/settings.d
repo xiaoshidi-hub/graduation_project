@@ -1,0 +1,9 @@
+.\flash\obj\settings.o: ..\..\emWin\Picture\Settings.c
+.\flash\obj\settings.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\settings.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\settings.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\settings.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\settings.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\settings.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\settings.o: ..\..\emWin\Include\Global.h
+.\flash\obj\settings.o: ..\..\emWin\Include\GUI_Version.h

@@ -1,0 +1,9 @@
+.\flash\obj\appicon.o: ..\..\emWin\ICON\AppIcon.c
+.\flash\obj\appicon.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\appicon.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\appicon.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\appicon.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\appicon.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\appicon.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\appicon.o: ..\..\emWin\Include\Global.h
+.\flash\obj\appicon.o: ..\..\emWin\Include\GUI_Version.h

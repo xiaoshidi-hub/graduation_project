@@ -1,0 +1,9 @@
+.\flash\obj\reader.o: ..\..\emWin\Picture\Reader.c
+.\flash\obj\reader.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\reader.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\reader.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\reader.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\reader.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\reader.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\reader.o: ..\..\emWin\Include\Global.h
+.\flash\obj\reader.o: ..\..\emWin\Include\GUI_Version.h

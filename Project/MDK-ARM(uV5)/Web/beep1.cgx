@@ -1,0 +1,7 @@
+t <form>
+t <checkbox>
+t <id>ChkBox2</id>
+c q2
+t </checkbox>
+t </form>
+.

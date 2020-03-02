@@ -1,0 +1,9 @@
+.\flash\obj\musicpause.o: ..\..\emWin\ICON\MusicPause.c
+.\flash\obj\musicpause.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\musicpause.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\musicpause.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\musicpause.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\musicpause.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\musicpause.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\musicpause.o: ..\..\emWin\Include\Global.h
+.\flash\obj\musicpause.o: ..\..\emWin\Include\GUI_Version.h

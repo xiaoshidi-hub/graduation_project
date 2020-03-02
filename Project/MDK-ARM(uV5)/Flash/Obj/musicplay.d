@@ -1,0 +1,9 @@
+.\flash\obj\musicplay.o: ..\..\emWin\ICON\MusicPlay.c
+.\flash\obj\musicplay.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\musicplay.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\musicplay.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\musicplay.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\musicplay.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\musicplay.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\musicplay.o: ..\..\emWin\Include\Global.h
+.\flash\obj\musicplay.o: ..\..\emWin\Include\GUI_Version.h

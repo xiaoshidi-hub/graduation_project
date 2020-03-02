@@ -1,0 +1,9 @@
+.\flash\obj\gps.o: ..\..\emWin\Picture\GPS.c
+.\flash\obj\gps.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\gps.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\gps.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\gps.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\gps.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\gps.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\gps.o: ..\..\emWin\Include\Global.h
+.\flash\obj\gps.o: ..\..\emWin\Include\GUI_Version.h

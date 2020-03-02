@@ -1,0 +1,9 @@
+.\flash\obj\calculator.o: ..\..\emWin\Picture\Calculator.c
+.\flash\obj\calculator.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\calculator.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\calculator.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\calculator.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\calculator.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\calculator.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\calculator.o: ..\..\emWin\Include\Global.h
+.\flash\obj\calculator.o: ..\..\emWin\Include\GUI_Version.h

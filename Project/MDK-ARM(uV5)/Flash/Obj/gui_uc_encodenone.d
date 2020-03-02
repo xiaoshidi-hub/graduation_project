@@ -1,0 +1,13 @@
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\HanZi\GUI_UC_EncodeNone.c
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\GUI_Private.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\Global.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\GUI_Version.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\LCD_Protected.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\GUI_Debug.h
+.\flash\obj\gui_uc_encodenone.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\obj\gui_uc_encodenone.o: ..\..\emWin\Include\WM_GUI.h

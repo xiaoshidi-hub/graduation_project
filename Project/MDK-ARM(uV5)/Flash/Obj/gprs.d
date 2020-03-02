@@ -1,0 +1,9 @@
+.\flash\obj\gprs.o: ..\..\emWin\Picture\GPRS.c
+.\flash\obj\gprs.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\gprs.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\gprs.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\gprs.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\gprs.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\gprs.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\gprs.o: ..\..\emWin\Include\Global.h
+.\flash\obj\gprs.o: ..\..\emWin\Include\GUI_Version.h

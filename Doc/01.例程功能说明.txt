@@ -1,0 +1,78 @@
+*********************************************************************************************************
+*
+*	版    本 : V1.0
+*	说    明 : V6开发板综合Demo之RTX实时操作系统及其所有中间件
+*              使用前的注意事项，视频演示和各个应用的截图说明看此贴（重要！！）：
+*                http://bbs.armfly.com/read.php?tid=17330
+*              版本信息：
+*                RTOS:         RL-RTX      V4.74
+*                File System:  RL-FlashFS  V4.74
+*                TCP/IP:       RL-TCPnet   V4.74
+*                USB:          RL-USB      V4.74
+*                CAN:          RL-CAN      V4.74
+*                GUI:          emWin       V5.36
+*                Modbus:       Designed by armfly
+*              任务设置：
+*                总共创建了15个任务
+*                1. os_idle_demon，   优先级0: 系统空闲任务。
+*                2. AppTaskStatistic  优先级1：CPU利用率检测。
+*                3. AppTaskGUI，      优先级3：GUI主任务。
+*                4. AppTaskTCPMain，  优先级4：TCPnet网络任务。
+*                5. AppTaskUserIF，   优先级5：按键消息处理任务。
+*                6. AppTaskMsgPro，   优先级6：主要用于截图任务。
+*                7. AppTaskStart，    优先级7：启动任务。
+*                8. AppTaskCAN，      优先级8：CAN总线任务。
+*                9. AppTaskModbus，   优先级9：Modbus任务。
+*               10. AppTaskUSB，      优先级10：USB任务，
+*               11. AppTaskMusic，    优先级11：音乐任务，用于音乐播放器，视频播放器，录音机和收音机处理。
+*               12. AppTaskPinDetect，优先级12：SD卡插拔检测任务。
+*               13. AppTaskTCPTimer， 优先级13：TCPnet网络定时更新任务。
+*                   USB在运行的过程中会创建2两个任务
+*               14. USBD_RTX_EndPoint0          优先级2：USB设备端点0任务。
+*               15. USBD_RTX_MSC_EP_BULK_Event  优先级2：USB BULK数据传输任务。
+*             中断优先级：
+*               NVIC优先级分组采用4，仅抢占优先级，范围0-15。
+*               LTDC中断，       抢占优先级 0
+*               ETH以太网中断，  抢占优先级 0
+*               USB FS中断，     抢占优先级 0
+*               CAN2 TX中断，    抢占优先级 1
+*               CAN2 RX0中断，   抢占优先级 1
+*               DMA2_Steam5中断，抢占优先级 1
+*               DMA2_Steam1中断，抢占优先级 1
+*               EXTI6中断，      抢占优先级 1
+*               USART3中断，     抢占优先级 2
+*               EXTI2中断，      抢占优先级 2
+*               TIM2中断，       抢占优先级 4
+*               USART1中断，     抢占优先级 13
+*               RTC Alarm中断，  抢占优先级 13
+*               SVC中断，        抢占优先级 14
+*               Systick中断，    抢占优先级 15
+*               PendSV中断，     抢占优先级 15
+*              内存分配：
+*               内部SRAM , CCM SRAM和SDRAM安排。
+*               内部192KB SRAM   ：80KB用于动态内存分配，其余用于任务堆栈，系统堆栈，文件系统，网络协议栈等。
+*               内部64KB CCM SRAM：用于视频播放器时，JPEG解码。
+*               外部16MB SDRAM   ：前4MB用于TFT显存。
+*               外部16MB SDRAM   ：后12MB用于emWin动态内存。
+*              注意事项：
+*                1. 每个MDK的安装目录里面都会有一个RTX源码，对于MDK4.XX来说，大家使用的
+*                   那个MDK版本，务必使用那个MDK版本下面的RTX，这样使用MDK自带的RTX调试组件
+*                   时，才能显示正确的调试信息。
+*                2. 当前使用的RTX源码是MDK4.74里面的，KEIL官方已经放弃MDK4系列的更新了，
+*                   这个版本号是MDK4系列里面最新版本了。如果需要使用MDK自带的RTX调试组件显示
+*                   信息，请务必使用MDK4.74.
+*                3. 对于MDK5.XX，RTX也在其安装目录里面，但是RTX已经不作为单独版本发布了，
+*                   它有一个全新的名字叫CMSIS-RTOS RTX。ARM官方在RTX的基础上给RTX又做了一层封装。
+*                4. 本实验推荐使用串口软件SecureCRT，要不串口打印效果不整齐。此软件在
+*                   V6开发板光盘里面有。
+*                5. 务必将编辑器的缩进参数和TAB设置为4来阅读本文件，要不代码显示不整齐。
+*
+*	修改记录 :
+*		版本号    日期         作者        说明
+*		V1.0    2017-03-20   Eric2013      首发
+*
+*
+*	Copyright (C), 2015-2020, 安富莱电子 www.armfly.com
+*
+*********************************************************************************************************
+

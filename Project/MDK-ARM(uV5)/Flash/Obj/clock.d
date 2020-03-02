@@ -1,0 +1,9 @@
+.\flash\obj\clock.o: ..\..\emWin\Picture\Clock.c
+.\flash\obj\clock.o: D:\Software\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\obj\clock.o: ..\..\emWin\Include\GUI.h
+.\flash\obj\clock.o: ..\..\emWin\Include\GUI_ConfDefaults.h
+.\flash\obj\clock.o: ..\..\emWin\Include\GUIConf.h
+.\flash\obj\clock.o: ..\..\emWin\Include\GUI_Type.h
+.\flash\obj\clock.o: ..\..\emWin\Include\LCD.h
+.\flash\obj\clock.o: ..\..\emWin\Include\Global.h
+.\flash\obj\clock.o: ..\..\emWin\Include\GUI_Version.h

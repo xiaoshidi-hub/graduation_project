@@ -1,0 +1,21 @@
+系统信息栏的二维码是PNG格式的图片 首先在将图片保存为PNG格式的，因为PNG格式的图片最小，只有10几
+KB,然后在GUIBulier 中新建一个imga格式的图片导入到程序中就可以了。
+
+鼠标显示函数 GUI_CURSOR_Show();在app.c文件
+
+
+APP图标制作 格式为 GUI_DRAW_RLE32
+
+1.要选择PNG格式的图片 在 BmpCvt.exe中打开必须是ARGB格式  尺寸为 70*70
+
+2.在BmpCvt.exe打开后直接保存，文件名为xxx.c格式 文件类型为（*.c）
+
+3.选择第三个 True color with alpha,compressed  只有这样生成的.c文件后图片才为GUI_DRAW_RLE32
+
+
+
+APP的PNG图片白边去除
+
+1.把图片保存为PNG格式用PS打开  点击魔术棒 再点击图片白边 按Delete键删除  然后保存就行了
+
+歌词的文本文档一定要保存为UTF8格式
